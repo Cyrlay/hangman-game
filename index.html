@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="panda.png"/>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Hangman</title>
+</head>
+<body>
+    <header>
+        <h1>Hangman</h1>
+    </header>
+    <main>
+        <div id="container">
+            <div class="insert-area">
+                <input class="input-keyword" type="text" value="" placeholder=" Enter keyword...">
+                <button class="btn-1">Submit</button>
+            </div>
+            <div id="keyword"></div>
+            <div class="board">
+                <div id="images"><img class="img" src="img/s0.jpg" alt=""></div>
+            </div>
+            <div id="alphabet"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="credits">
+            <p>Credits © Cyrlay</p>
+        </div>
+    </footer>
+    <script src="js.js"></script>
+</body>
+</html>

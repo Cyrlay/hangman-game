@@ -1,0 +1,1 @@
+Classic hangman game. To start the game user has to enter a keyword.

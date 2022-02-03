@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: darkslategray;
+    color: lightgray;
+    font-size: 28px;
+    font-family: 'Press Start 2 P', cursive;
+    font-weight: 700;
+}
+
+header {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+footer {
+    margin: 50px;
+}
+
+.board {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.insert-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#keyword {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 48px;
+    min-height: 60px;
+}
+
+#images {
+    display: inline-block;
+    height: 280px;
+    width: 450px;
+}
+
+.img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#alphabet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.letter {
+    font-family: "Times New Roman", "sans-serif";
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid gray;
+    float: left;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.letter:hover {
+    background-color: #222222;
+    color: white;
+    border: 3px solid white;
+}
+
+.reset {
+    color: green;
+    cursor: pointer;
+    font-size: 48px;
+}
+
+.reset:hover {
+    color: white;
+}
+
+.input-keyword {
+    width: 150px;
+    height: 35px;
+    border-radius: 8px;
+}
+
+.btn-1 {
+    background-color: rgba(41, 225, 135, 1);
+    border-radius: 8px;
+    border-width: 0;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 8px 8px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.btn-1:hover {
+    background-color: rgb(222, 198, 39);
+}
+
+.credits {
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green
+}
+
+@media screen and (max-width: 450px) {
+    .images {
+        width: 380px;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+}
